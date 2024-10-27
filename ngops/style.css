@@ -1,0 +1,25 @@
+:root {
+    --primary: #814E28;
+    --primary-focus: #734424;
+}
+
+/*Component*/
+.btn-primary {
+    background-color: var(--primary) !important;
+    border-color: var(--primary) !important;
+}
+
+.btn-primary:hover{
+    background-color: var(--primary-focus) !important;
+
+}
+
+/*Navbar*/
+.active {
+    color: var(--primary) !important;
+}
+
+.nav-link:hover{
+    color: var(--primary) !important;
+}
+
